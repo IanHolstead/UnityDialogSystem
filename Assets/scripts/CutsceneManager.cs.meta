@@ -1,10 +1,23 @@
 fileFormatVersion: 2
 guid: 3f69f071a4a628346b5ddc72489ef855
-timeCreated: 1485016076
-licenseType: Pro
+timeCreated: 1485034152
+licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dialogPanelRef: {instanceID: 0}
+  - speakerNameTextRef: {instanceID: 0}
+  - spokenTextRef: {instanceID: 0}
+  - choicePanelRef: {instanceID: 0}
+  - choicePanel0Ref: {instanceID: 0}
+  - choicePanel1Ref: {instanceID: 0}
+  - choicePanel2Ref: {instanceID: 0}
+  - choicePanel3Ref: {instanceID: 0}
+  - choice0TextRef: {instanceID: 0}
+  - choice1TextRef: {instanceID: 0}
+  - choice2TextRef: {instanceID: 0}
+  - choice3TextRef: {instanceID: 0}
+  - LineSetFor1Key: {fileID: 11400000, guid: 594ca6910f980b948a4a95ee9af163fb, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

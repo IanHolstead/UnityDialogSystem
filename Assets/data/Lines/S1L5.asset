@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58ec76aa2881b7c48bb04397d76f2a76, type: 3}
-  m_Name: LineData 1
+  m_Name: S1L5
   m_EditorClassIdentifier: 
-  line: 
-  speakerName: 
+  line: 'It''s going: '
+  speakerName: Me
   speaker: {fileID: 0}
   animationToPlay: 
   delayBeforePlay: 0

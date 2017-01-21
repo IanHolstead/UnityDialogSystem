@@ -9,10 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4e17f896cf44184faf8702d7fb0d573, type: 3}
-  m_Name: LineSetData
+  m_Name: S1LS2
   m_EditorClassIdentifier: 
+  doNext: {fileID: 11400000, guid: e46b72416f7d4d04a9320bde17dc5593, type: 2}
   lines:
-  - {fileID: 11400000, guid: 3602486bd6540094a9dfee3259e59bac, type: 2}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 12357857687ec784a81fcbc8e7aa4ca7, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: ce94876069461504dbb9d3f11fd396cb, type: 2}

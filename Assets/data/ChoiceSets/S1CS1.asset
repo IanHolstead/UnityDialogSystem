@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26836ac88d7200e45a4f19889428c0c9, type: 3}
+  m_Name: S1CS1
+  m_EditorClassIdentifier: 
+  doNext: {fileID: 0}
+  lineToPlay: {fileID: 11400000, guid: fb061bbfc3a7a0a43a371977400b926f, type: 2}
+  choices:
+  - {fileID: 11400000, guid: fca52a1befe51b14c99b425c6e3977ec, type: 2}
+  - {fileID: 11400000, guid: 01d1a246c6370d144916a051ff886ed5, type: 2}
+  - {fileID: 11400000, guid: d8db82a7953b0fb4fb5ba84f80522c43, type: 2}

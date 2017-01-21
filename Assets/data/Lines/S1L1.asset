@@ -8,9 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 330add2d3154606479f2638544ebe402, type: 3}
-  m_Name: choiceData
+  m_Script: {fileID: 11500000, guid: 58ec76aa2881b7c48bb04397d76f2a76, type: 3}
+  m_Name: S1L1
   m_EditorClassIdentifier: 
-  doNext: {fileID: 11400000, guid: 594ca6910f980b948a4a95ee9af163fb, type: 2}
-  shortText: 
-  enabled: 0
+  line: I wonder what this is?
+  speakerName: Person 1
+  speaker: {fileID: 0}
+  animationToPlay: 
+  delayBeforePlay: 0
+  skipable: 0
