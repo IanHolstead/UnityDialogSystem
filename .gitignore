@@ -4,6 +4,7 @@
 [Bb]uilds/
 [Ii]gnore/
 [Dd]ataLogs/
+.vscode/
 *.csproj
 *.unityproj
 *.sln
