@@ -24,11 +24,7 @@ namespace BeamMeRoundScotty{
         public float charactersPerSecond = 3f;
 
         LineSet currentLineSet;
-        TempLineSet currentTempLineSet;
-
-        TempChoiceSet currentTempChoiceSet;
         ChoiceSet currentChoiceSet;
-
 
         [Header("Canvas References")]
         Canvas screenCanvas;
@@ -54,27 +50,6 @@ namespace BeamMeRoundScotty{
 
         public class ActionSet{
 			
-		}
-
-		public class TempLineSet : ActionSet {
-			public string[] lines;
-			public ActionSet nextSet;
-
-			public TempLineSet(string[] lines){
-				this.lines = lines;
-			}
-		}
-
-		public class TempChoiceSet : ActionSet {
-			public string mainText;
-			public string[] choices;
-			public ActionSet[] nextActions;
-
-			public TempChoiceSet(string mainText, string[] choices, ActionSet[] nextActions){
-				this.mainText = mainText;
-				this.choices = choices;
-				this.nextActions = nextActions;
-			}
 		}
 
 		// Use this for initialization
