@@ -257,7 +257,7 @@ namespace BeamMeRoundScotty{
 
         void AdvanceToNextLine()
         {
-            if (currentLineSet != null && currentLineIndex + 1 < currentLineSet.lines.Count)
+            if (currentLineSet != null && currentLineIndex + 1 < currentLineSet.lines.Count && currentLineSet.lines[currentLineIndex] != null)
             {
                 currentLineIndex++;
 

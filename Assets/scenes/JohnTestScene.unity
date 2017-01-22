@@ -1610,10 +1610,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f69f071a4a628346b5ddc72489ef855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charactersPerSecond: 50
   dialogPanelRef: {fileID: 1666422326}
   speakerNameTextRef: {fileID: 981197978}
   spokenTextRef: {fileID: 1392191074}
-  charactersPerSecond: 50
   choicePanelRef: {fileID: 1845694083}
   choicePanel0Ref: {fileID: 460120849}
   choicePanel1Ref: {fileID: 544910347}
@@ -1624,6 +1624,7 @@ MonoBehaviour:
   choice2TextRef: {fileID: 317632189}
   choice3TextRef: {fileID: 1653596007}
   LineSetForQKey: {fileID: 11400000, guid: 594ca6910f980b948a4a95ee9af163fb, type: 2}
+  LineSetForWKey: {fileID: 11400000, guid: 266a191d3473da74ea61544a9659e16d, type: 2}
 --- !u!4 &1741878641
 Transform:
   m_ObjectHideFlags: 0
