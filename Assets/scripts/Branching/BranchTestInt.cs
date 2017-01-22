@@ -4,7 +4,6 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "IntBranchTest", menuName = "Dialog/IntBranchTest", order = 6)]
 public class BranchTestInt : BranchTestBaseClass {
-    public string keyName;
     public CompareOperation compareOperation;
     public int valueToCompare;
 

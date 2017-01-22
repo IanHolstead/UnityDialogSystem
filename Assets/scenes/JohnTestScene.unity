@@ -912,8 +912,8 @@ MonoBehaviour:
   dialogPanelRef: {fileID: 0}
   dialogPanelPrefab: {fileID: 1352460204899260, guid: 668ce370f69d62a4a98297af8ff47092,
     type: 2}
-  LineSetForQKey: {fileID: 11400000, guid: 594ca6910f980b948a4a95ee9af163fb, type: 2}
-  LineSetForWKey: {fileID: 11400000, guid: 2628940980684004ebdc08b70a729982, type: 2}
+  LineSetForQKey: {fileID: 11400000, guid: 2628940980684004ebdc08b70a729982, type: 2}
+  LineSetForWKey: {fileID: 11400000, guid: 266a191d3473da74ea61544a9659e16d, type: 2}
 --- !u!4 &1741878641
 Transform:
   m_ObjectHideFlags: 0

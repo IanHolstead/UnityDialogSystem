@@ -6,9 +6,7 @@ using UnityEditor;
 [CreateAssetMenu(fileName = "StringBranchTest", menuName = "Dialog/StringBranchTest", order = 8)]
 public class BranchTestString : BranchTestBaseClass
 {
-    public string keyName;
     public string equalTo;
-    
 
     public override bool DoTest()
     {

@@ -111,6 +111,10 @@ namespace BeamMeRoundScotty{
             {
                 DoBranch((SimpleBranch)actionSet);
             }
+            else if (actionSet is SetKeyBaseClass)
+            {
+                SetKey((SetKeyBaseClass)actionSet);
+            }
         }
 
         void PlayLineSet(LineSet lineSet)
@@ -148,6 +152,12 @@ namespace BeamMeRoundScotty{
             {
                 PlayActionSet(branch.doIfFalse);
             }
+        }
+
+        void SetKey(SetKeyBaseClass setKey)
+        {
+            setKey.Set();
+            PlayActionSet(setKey.doNext);
         }
 
 		void OnLineComplete(){

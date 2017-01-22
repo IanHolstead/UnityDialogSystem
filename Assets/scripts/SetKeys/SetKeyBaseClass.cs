@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class BranchTestBaseClass : ScriptableObject {
+public abstract class SetKeyBaseClass : NextActionBaseClass {
     public string keyName;
-    public abstract bool DoTest();
+
+    public abstract void Set();
 }

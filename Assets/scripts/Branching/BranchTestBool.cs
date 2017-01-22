@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 [CreateAssetMenu(fileName = "BoolBranchTest", menuName = "Dialog/BoolBranchTest", order = 7)]
 public class BranchTestBool : BranchTestBaseClass
 {
-    public string keyName;
-    //
     public bool equalTo;
 
     public override bool DoTest()
