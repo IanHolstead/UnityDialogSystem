@@ -17,8 +17,22 @@ public class LineSetCreator : Editor
 
     private void OnEnable()
     {
+        //LineSet lineset = (LineSet)target;
+        //Debug.Log("OnEnable: " + target);
+        if (LineSet == null)
+        {
+            //Debug.Log("is Null!");
+            return;
+        }
+        if (reorderableList != null)
+        {
+            Debug.Log("Already Made!");
+            return;
+        }
+
         reorderableList = new ReorderableList(LineSet.lines, typeof(Line), true, true, true, true);
 
+        Debug.Log("Reorderable List Created: " + reorderableList + ", lineset: "+ target);
         // This could be used aswell, but I only advise this your class inherrits from UnityEngine.Object or has a CustomPropertyDrawer
         // Since you'll find your item using: serializedObject.FindProperty("list").GetArrayElementAtIndex(index).objectReferenceValue
         // which is a UnityEngine.Object
@@ -34,6 +48,10 @@ public class LineSetCreator : Editor
 
     private void OnDisable()
     {
+        if (LineSet == null)
+        {
+            return;
+        }
         // Make sure we don't get memory leaks etc.
         reorderableList.drawHeaderCallback -= DrawHeader;
         reorderableList.drawElementCallback -= DrawElement;
@@ -104,6 +122,18 @@ public class LineSetCreator : Editor
         base.OnInspectorGUI();
 
         // Actually draw the list in the inspector
-        reorderableList.DoLayoutList();
+        if (reorderableList != null)
+        {
+            try
+            {
+                Debug.Log(reorderableList.count);
+            }
+            catch( System.Exception e)
+            {
+                //Gotta catch 'em all
+                Debug.Log(e);
+            }
+            reorderableList.DoLayoutList();
+        }
     }
 }
