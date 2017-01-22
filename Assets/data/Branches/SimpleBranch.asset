@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: SimpleBranch
   m_EditorClassIdentifier: Assembly-CSharp::SimpleBranch
-  doIfTrue: {fileID: 0}
-  doIfFalse: {fileID: 0}
-  testToPerform: {fileID: 0}
+  doIfTrue: {fileID: 11400000, guid: 325ba72f67024ba45aabe8da91bbde81, type: 2}
+  doIfFalse: {fileID: 11400000, guid: 1669dbc102757e746bd4d3cd779404cf, type: 2}
+  testToPerform: {fileID: 11400000, guid: 7c13626c9a8be2a4187344b9da0f41d9, type: 2}
