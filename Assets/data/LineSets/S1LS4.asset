@@ -13,4 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doNext: {fileID: 0}
   lines:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 100433c18d36cbb42b2f217b234549fc, type: 2}
+  - {fileID: 11400000, guid: 738756136d38eb94e8e5f9267db28af2, type: 2}

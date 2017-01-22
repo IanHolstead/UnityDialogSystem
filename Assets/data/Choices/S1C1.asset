@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330add2d3154606479f2638544ebe402, type: 3}
   m_Name: S1C1
   m_EditorClassIdentifier: 
-  doNext: {fileID: 0}
+  doNext: {fileID: 11400000, guid: 824cc8971dbe7294e87dbeecafc22ec3, type: 2}
   shortText: Good!
   enabled: 0
