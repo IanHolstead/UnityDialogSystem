@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "choiceData", menuName = "Dialog/Choice", order = 3)]
-public class Choice : ActionBaseClass
+public class Choice : NextActionBaseClass
 {
 
     [Tooltip("Option text")]
