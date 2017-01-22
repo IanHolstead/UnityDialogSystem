@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 330add2d3154606479f2638544ebe402, type: 3}
   m_Name: S1C3
   m_EditorClassIdentifier: 
-  doNext: {fileID: 11400000, guid: f8be8b4eb2b15be4f8cb753a23822668, type: 2}
-  shortText: <sudent>
+  doNext: {fileID: 0}
+  shortText: <The student life is rough...>
   enabled: 0
