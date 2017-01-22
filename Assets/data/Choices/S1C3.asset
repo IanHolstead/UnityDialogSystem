@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: S1C3
   m_EditorClassIdentifier: 
   doNext: {fileID: 0}
-  shortText: <sudent>
+  shortText: <The student life is rough...>
   enabled: 0
