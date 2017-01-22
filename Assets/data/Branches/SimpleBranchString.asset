@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: SimpleBranchString
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleBranch
+  doIfTrue: {fileID: 11400000, guid: 325ba72f67024ba45aabe8da91bbde81, type: 2}
+  doIfFalse: {fileID: 11400000, guid: 1669dbc102757e746bd4d3cd779404cf, type: 2}
+  testToPerform: {fileID: 11400000, guid: e9bbe6400b3e53c4b86987b9b97311e6, type: 2}

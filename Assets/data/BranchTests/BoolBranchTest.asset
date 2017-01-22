@@ -8,9 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 330add2d3154606479f2638544ebe402, type: 3}
-  m_Name: S1C3
+  m_Script: {fileID: 11500000, guid: e9c53a91a6268ab40bfa9d62a3e9c260, type: 3}
+  m_Name: BoolBranchTest
   m_EditorClassIdentifier: 
-  doNext: {fileID: 11400000, guid: f8be8b4eb2b15be4f8cb753a23822668, type: 2}
-  shortText: <The student life is rough...>
-  enabled: 0
+  keyName: boolTest
+  equalTo: 1

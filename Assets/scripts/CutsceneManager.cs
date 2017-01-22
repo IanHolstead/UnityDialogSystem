@@ -88,8 +88,6 @@ namespace BeamMeRoundScotty{
 			#endregion
 		}
 
-        
-
         void OnCutsceneEvent(CutsceneEvent e)
 		{
             PlayActionSet(e.actionSet);
@@ -108,6 +106,14 @@ namespace BeamMeRoundScotty{
             else if (actionSet is ChoiceSet)
             {
                 PlayChoiceSet((ChoiceSet)actionSet);    
+            }
+            else if (actionSet is SimpleBranch)
+            {
+                DoBranch((SimpleBranch)actionSet);
+            }
+            else if (actionSet is SetKeyBaseClass)
+            {
+                SetKey((SetKeyBaseClass)actionSet);
             }
         }
 
@@ -134,8 +140,24 @@ namespace BeamMeRoundScotty{
             
 			dialogPanelRef.DisplayChoice(choiceSet.lineToPlay.line, choiceSet.lineToPlay.speakerName, choiceSet.choices);
             //PopulateChoices(choiceSet.choices);
+        }
 
-            
+        void DoBranch(SimpleBranch branch)
+        {
+            if (branch.testToPerform.DoTest())
+            {
+                PlayActionSet(branch.doIfTrue);
+            }
+            else
+            {
+                PlayActionSet(branch.doIfFalse);
+            }
+        }
+
+        void SetKey(SetKeyBaseClass setKey)
+        {
+            setKey.Set();
+            PlayActionSet(setKey.doNext);
         }
 
 		void OnLineComplete(){
