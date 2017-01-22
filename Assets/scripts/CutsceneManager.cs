@@ -144,7 +144,6 @@ namespace BeamMeRoundScotty{
 
                 case WritingState.WritingChoice:
                     {
-                        Debug.Log("Writing Choice");
                         //Advance to the end of the line if the player presses space
                         if (Input.GetKeyDown(KeyCode.Space))
                         {
@@ -174,7 +173,6 @@ namespace BeamMeRoundScotty{
 
                 case WritingState.WaitingForChoice:
                     {
-                        Debug.Log("Writing Choice");
                         ListenForChoice();
                         break;
                     }
@@ -188,15 +186,13 @@ namespace BeamMeRoundScotty{
 
         void PlayActionSet(ActionBaseClass actionSet)
         {
-            Debug.Log(actionSet.GetType().ToString());
             if (actionSet is LineSet)
             {
                 PlayLineSet((LineSet)actionSet);
             }
             else if (actionSet is ChoiceSet)
             {
-                PlayChoiceSet((ChoiceSet)actionSet);
-                Debug.Log("choice");
+                PlayChoiceSet((ChoiceSet)actionSet);    
             }
         }
 
@@ -222,8 +218,7 @@ namespace BeamMeRoundScotty{
 
             currentLineSet = null;
             currentChoiceSet = choiceSet;
-
-            Debug.Log(choiceSet.lineToPlay.line);
+            
             BeginWritingLine(choiceSet.lineToPlay.line, choiceSet.lineToPlay.speakerName);
             PopulateChoices(choiceSet.choices);
 

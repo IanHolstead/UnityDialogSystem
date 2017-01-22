@@ -4,15 +4,6 @@ using UnityEngine.SceneManagement;
 
 namespace BeamMeRoundScotty{
 
-	public class TempCutsceneEvent : GameEvent {
-		//public string[] lines;//TODO: Replace this with whatever "screenplay" scriptableObject we end up making
-		public CutsceneManager.ActionSet actionSet;
-
-		public TempCutsceneEvent(CutsceneManager.ActionSet actionSetToPlay){
-			this.actionSet = actionSetToPlay;
-		}
-	}
-
     public class CutsceneEvent : GameEvent
     {
         public ActionBaseClass actionSet;
